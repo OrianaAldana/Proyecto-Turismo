@@ -5,51 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultas y viajes</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
+<body class="fondo">
     <header>
-        <h1>Gelato Da Viaggio</h1>
-        <nav>Menu
-            <ul>
-                <li><a href="Inicio.html">Inicio</a> </li>
-                <li><a href="lugares.html">Donde ir</a> </li>
-                <li><a href="comida.html">Que comer</a> </li>
-                <li><a href="consultas.html">consultas</a> </li>
+        <div class="titulo">
+            <img class="card__imaget" src="src/img/logo.png.png">
+            <img class="card__imagem" src="src/img/sisisi.png">
+        </div>
+        <nav class="menu">
+            <ul class="submenu">
+                <li><a class="button" href="Inicio.html">Inicio</a> </li>
+                <li><a class="button" href="lugares.html">Lugares</a> </li>
+                <li><a class="button" href="comida.html">Comida</a> </li>
+                <li><a class="button" href="consultas.html">Consultas</a> </li>
             </ul>
         </nav>
     </header>
     <section>
-        <h2>Costos</h2>
-        <article>
-            <h3>Roma, Venecia y Florencia</h3>
-            <p>Un viaje por Roma, Venecia y Florencia por 8 dias y 7 noches puede costar apartir de EUR 1.184.</p>
-            <img src="src/img/rvf.jpg">
+        <h2 class="arti__text">Costos</h2>
+        <article class="artic">
+            <h3 class="arti__text">Roma, Venecia y Florencia</h3>
+            <p class="arti__subtext">Un viaje por Roma, Venecia y Florencia por 8 dias y 7 noches puede costar apartir de EUR 1.184.</p>
+            <img class="card__imagecn" src="src/img/rvf.jpg">
         </article>
-        <article>
-            <h3>Roma e Islas Griegas</h3>
-            <p>Por 10 dias y 9 noches podria cosar arriba de EUR 1.504.</p>
-            <img src="src/img/islas.jpg">
+        <article class="artic">
+            <h3 class="arti__text">Roma e Islas Griegas</h3>
+            <p class="arti__subtext">Por 10 dias y 9 noches podria cosar arriba de EUR 1.504.</p>
+            <img class="card__imagecns" src="src/img/islas.jpg">
         </article>
-        <h2>Si tiene alguna duda contactenos!</h2>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-                <li>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                  <label for="mail">Email:</label>
-                  <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                  <label for="msg">Message:</label>
-                  <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-            </ul>
-        </form>
+        <h2 class="cont">Si tiene alguna duda contactenos!</h2>
+        <article class="arti" >
+            <form action="/my-handling-form-page" method="post">
+               <ul>
+                   <li>
+                     <label for="name">Name:</label>
+                     <input placeholder="Escriba su nombre"/>
+                   </li>
+                   <li>
+                     <label for="mail">Email:</label>
+                     <input placeholder="Escriba su correo electronico"/>
+                   </li>
+                   <li>
+                     <label for="msg">Message:</label>
+                     <input placeholder="Escriba su mensaje"/>
+                   </li>
+                   <li class="button">
+                       <button type="submit">Send your message</button>
+                     </li>
+               </ul>
+            </form>
+        </article>
     </section>
     <h4>Gelato Da Viaggio</h4>
     <h5>Desarrollado por Oriana Aldana. <a href="https://github.com/OrianaAldana">Mi Pagina Web</a> </h5>
